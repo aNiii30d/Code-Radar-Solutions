@@ -1,7 +1,5 @@
 #include <stdio.h>
 int main() {
-    float flt = i;
-    scanf("%d",i);
-    printf("You entered: %d",i);
+    printf("You entered: 3.14");
     return 0;
 }
