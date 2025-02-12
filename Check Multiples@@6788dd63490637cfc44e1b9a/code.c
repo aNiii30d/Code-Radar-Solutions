@@ -2,6 +2,6 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if (a/b == int) printf("Yes");
+    if (b%a == 0) printf("Yes");
     return 0;
 }
