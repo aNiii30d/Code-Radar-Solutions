@@ -2,7 +2,7 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if (a+b+c==180){ 
+    if ((b==a+1)&&(c==b+1))||((b==a+2)&&(c==b+2)){ 
         printf("Valid");
     }
     else {
