@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&x);
     if ((x==1)||(x==3)||(x==5)||(x==7)||(x==8)||(x==10)||(x==12)) printf("31");
     else if (x==2) printf("28");
+    else if ((x>12)||(x<1)) printf("Invalid month");
     else printf("30");
     return 0;
 }
